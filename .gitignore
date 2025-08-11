@@ -1,0 +1,21 @@
+# venv/conda
+.venv/
+.conda/
+# caches
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+# editors
+.vscode/
+# data & artifacts
+uploads/
+*.csv
+*.parquet
+results/
+# models / weights
+*.pt
+*.bin
+*.safetensors
+# os
+.DS_Store
+Thumbs.db
